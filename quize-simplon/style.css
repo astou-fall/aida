@@ -1,0 +1,173 @@
+
+* {
+  box-sizing: border-box;
+}
+.logo{
+  width: 150px;
+  margin-left: 30px;
+  margin-bottom: -70px;
+  border: none;
+}
+nav{
+  background-color: #ffffff;
+  height: 50px;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+nav li {
+  float: right;
+  position: relative;
+  top: auto;
+  display: inline-block;
+  margin-right: 80px;
+}
+
+nav li a {
+  display: inline-block;
+  color: black;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+#Profil {
+      width: 1400px;
+			height: 130px;
+			margin: 20px auto;
+      background-color: #EFEFF9;
+      margin-bottom: 30px;
+			padding: 10px;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+
+		.circle-container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin: 0 5px;
+			text-align: center;
+		}
+		.circle {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 70px;
+			height: 70px;
+			border-radius: 50%;
+			border: 2px solid #6474B9;
+			font-size: 24px;
+			font-weight: bold;
+			position: relative;
+		}
+		.circle:first-child {
+			background-color:none;
+      ;
+			color: #5c5f65;
+		}
+		.circle p {
+			margin: 0;
+			font-size: 16px;
+			font-weight: normal;
+			position: absolute;
+			top: 50%;
+			left: 120%;
+			transform: translateY(-50%);
+      color: #5c5f65;
+		}
+
+  .separation {
+  background-color: #ee752d;
+  width: 500px;
+  height: 5px;
+  border-radius: 50px;
+  margin-left: 450px;
+  }
+
+  .Quizz{
+    color: #004f8a;
+    text-align: center;
+    font-size: 23px;
+  }
+
+  .Question{
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  #choix{
+    margin-top: 3%;
+    background-color: #ee752d;
+    height: 150px;
+    width: 1400px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 5px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .font{
+    margin: 0;
+    padding: 10px;
+    font-size: 25px;
+  }
+
+
+  .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 30px;
+    position: relative;
+  }
+  
+  .rectangle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    margin-left: 3px;
+    padding: 0 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .rectangle:nth-child(1) {
+    width: 6%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color:#004f8a;
+  }
+  
+  .rectangle:nth-child(2) {
+    width: 3%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #004f8a;
+    font-size: 13px;
+  }
+
+

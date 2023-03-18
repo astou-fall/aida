@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    display: flex;
+}
+.img img{
+    width: 150px;
+}
+.img{
+    width: 50%;
+}
+nav{
+    width: 50%;
+    display: flex;
+}
+nav ul{
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    padding-top: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 20px;
+}
+.fatou{
+    display: flex;
+    background-color: rgb(249, 100, 7);
+    height: 80px;
+}
+.fatou h3{
+    margin-top: 1%;
+    margin-left: 15%;
+    color: azure;
+    font: size 25px;    
+}
+.formulaire{
+    height: 50px;
+}
+

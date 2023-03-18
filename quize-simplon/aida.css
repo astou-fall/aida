@@ -1,0 +1,25 @@
+*{
+    display: flex;
+    margin: 0;
+  }
+  header{
+    display: flex;
+  }
+  img{
+    width: 50%;
+  }
+ .img img{
+    width: 150px;
+  }
+  nav{
+    width: 50%;
+    display: flex;
+  }
+  nav ul{
+    display: flex;
+  }
+  nav ul li{
+    list-style: none;
+    padding-top: 20px;
+  }
+
